@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  rust:
+    image: caleb/rust:nightly
+    volumes:
+      - .:/source
+
+  rsyslog:
+    image: caleb/rsyslog
+    # volumes:
+    #   - ./log:/var/log
+      

@@ -1,0 +1,8 @@
+[package]
+name = "syslog-forwarder"
+version = "1.0.0"
+authors = ["Caleb Land"]
+
+[dependencies]
+mioco = { git = "https://github.com/dpc/mioco.git" }
+env_logger = "0.3.2"
